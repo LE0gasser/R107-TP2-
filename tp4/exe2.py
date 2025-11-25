@@ -1,5 +1,10 @@
-nbE = int(input("Donnez le nombre d'etudiants : "))
+nbe = int(input("Donnez le nombre d'etudiants : "))
+
 moyenne = 0.0;
 notes = []
-for i in range(26):
-    notes.append(int(input("quelles sont les notes que vous voulez saisir")))
+for i in range(nbe):
+
+    notes.append(int(input(f"quelles note a eu l'eleves  {i + 1} : ")))
+
+moyenne=sum(notes)/nbe
+print(f"la moyenne de classe est de {moyenne}")
