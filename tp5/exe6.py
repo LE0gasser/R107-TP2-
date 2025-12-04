@@ -15,5 +15,5 @@ else:
               + 40 * salaire_h * 1.25 \
               + (heures - 200) * salaire_h * 1.50
 
-# Affichage du résultat
+
 print(f"Le salaire total est de : {salaire:.2f} euros")
